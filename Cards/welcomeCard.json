@@ -1,0 +1,21 @@
+{
+  "type": "AdaptiveCard",
+  "body": [    
+    {
+      "type": "Image",
+      "horizontalAlignment":"center",
+      "size":"auto",
+      "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAhACYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/M1x/wAePjfoP7OXwn1rxl4kuJIdJ0SDzpREu+adjhUijUkAu7EKASBk5JAyR2B6c18D/wDBfrXr3xl+xd4m8B6BbSXGrLbQeJbpYZfLla1s7hZ2ij7eY8cMuM5B27cMXGMsRGs6U/YfEk2vVL8fTqL61haFSnLGS5YOUYt/4ml8t9+i1eiPFPHX/Bfb4p+HdaPjLT/hv4e1D4V6XeRQarDEZ2vIllbbHGL7eIBcNn5UMZDHA4BDV+o/w1+IGl/Ff4deH/FWiz/aNH8Tabb6rYTEbTLbzxLLG2PdGU1+Q/7V37cPwRv/ANhq11qxuLzx34e8VW9/ovhvwu93OYtau7qMM1le+XlrQ2hmQ7pGjmiCDyGZirN+j3/BOfVo7T9kzwZ4TeJIrz4d6NY+GJgm4rILW1jiSRcknDBPU8qwya+V4RxGPrwqvFyckmtWktXfa3TTbo/mfU8W/wBn4etRo0IqEpqVkm3dRte7fVXX9I92ooByKK+vPlwr5N/4KL/CS68U217JdXWr2/hfxVos3h7U7nTpPLudLaRJEWeN9reW3zgq2GG5MEHIB+nPHGoarpfhq4n0Wxj1HUkK+VbyOI1k+YA5YkY4yc+3evApL79pu+tmWXSfhyY5kIeORmbgjlWG8g+h6itqeHjVi1O1ttWk/Vb2a3T6M+fzzHSoqMKcKjldSThByWj2lZq6lqnG+qb20PwI+B/7L3iL4v8AjfxJ+zzL8VtJtfD3ww1GTXrCO1kwup6kJ7SG8ZkUlxHCv2kLgBlcg8hmK/0Sfsa/D+88MeGNY1m9W8hHiK7EtlDdE+dHZpuEO4HlSQzHHoRwK8J8OfsCyfDT4iHx54N+BXwN0H4jPL9ok1uLw/aRTNJKh+0uJkk8xWaRmIIHKnnBPHqmma7+0nY6payX2i+A7uxWZPtENvMUlkjyA20s+Acc59u/SuytRpzfNT5U7W3W179v1/U8+WdYieJhPFQrTUUrfu3o+Xlbvd6Wu0rXV3vofRFFVdDnubnRrWS8iEN5JCjTxjpHIVG5RyehyOp+porzT6+LurlqiiigYUUUUAFFFFAH/9k=",
+      "altText": "PIABot Image"
+    },
+    {
+      "type": "TextBlock",
+      "text": " Hello and welcome! My name is PIA and I'm an AI enabled PLM Chatbot.",
+      "color": "Accent",
+      "style": "default",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.1"
+}

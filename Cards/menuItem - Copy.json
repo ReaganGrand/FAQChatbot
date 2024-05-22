@@ -1,0 +1,16 @@
+{
+  "MenuItem": [
+    "FAQ",
+    "Contact us",
+    "GSD"
+  ],
+  "ContactUsEmail": [
+    "APLM: aplm@abbott.com",
+    "SBM: sbm@abbott.com"
+  ],
+  "AppMenuItem": [
+    "APLM",
+    "SBM",
+    "Back to Main Menu"
+  ]
+}

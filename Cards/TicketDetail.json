@@ -1,0 +1,133 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      //"spacing": "Large",
+      "style": "default",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              //"width": 75,
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${confirmation}",
+                  "wrap": true,
+                  "size": "Medium",
+                  "color": "accent",
+                  "weight": "Bolder",
+                  "separator": true,
+                  "horizontalAlignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  //"width": 30,
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Issue Description",
+                      "wrap": true,
+                      "weight": "Bolder"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${issuedesc}",
+                      "wrap": true,
+                      "spacing": "Medium",
+                      "color": "accent"
+                    }
+                  ],
+                  "width": 70
+                }
+              ]//,
+              //"spacing": "Large"
+            }
+          ]//,
+          //"spacing": "Large"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              //"width": 30,
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "E-mail",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              //"width": 70,
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${emailid}",
+                  "wrap": true,
+                  "color": "Accent"
+                }
+              ]
+            }
+          ] //,
+          //"spacing": "ExtraLarge"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          //"width": 30,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Phone Number",
+              "wrap": true,
+              "weight": "Bolder"
+
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          //"width": 70,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${phonenumber}",
+              "wrap": true,
+              "color": "accent"
+            }
+          ]
+        }
+      ]//,
+      //"spacing": "Large"
+    }  
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3"
+}

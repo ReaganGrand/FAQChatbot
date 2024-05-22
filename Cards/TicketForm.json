@@ -1,0 +1,83 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "size": "Medium",
+          "weight": "Bolder",
+          "text": "Create a help ticket",
+          "horizontalAlignment": "center",
+          "color": "accent"
+        }
+      ],
+      "style": "emphasis",
+      "bleed": true      
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${body}",
+              "isSubtle": true,
+              "wrap": true,
+              "size": "small",
+              "color": "light"
+            },
+            {
+              "type": "TextBlock",
+              "text": "${disclaimer}",
+              "isSubtle": true,
+              "wrap": true,
+              "size": "small",
+              "color": "attention"
+            },
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "Input.Text",
+                  "placeholder": "Describe your issue",
+                  "id": "issueDescId",
+                  "isMultiline": true,
+                  "label": "Issue Description",
+                  "separator": true,
+                  "value": "${currentquery}"
+                },
+                {
+                  "type": "Input.Text",
+                  "$data": "${properties}",
+                  "placeholder": "${placeholderText}",
+                  "id": "${id}",
+                  "label": "${label}",
+                  "regex": "${validation}",
+                  "errorMessage": "${error}",
+                  "isRequired": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }   
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "style": "positive",
+      "data": {
+        "id": "Submit"
+      }
+    }
+  ]
+}

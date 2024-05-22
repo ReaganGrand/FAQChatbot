@@ -1,0 +1,72 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "items": [        
+        {
+          "type": "Image",
+          "altText": "Contact us",
+          "url": "https://localhost:5003/images/Icon_Mail_Light.png",
+          "size": "small",
+          "horizontalAlignment": "left",
+          "separator": true
+        }
+      ]
+    },    
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Applicaton",
+              "separator": true,
+              "horizontalAlignment": "left",
+              "color": "accent",
+              "size": "medium",
+              "weight": "bolder",
+              "style": "heading"
+
+            },
+            {
+              "type": "TextBlock",
+              "text": "IQ",
+              "color": "default",
+              "separator": true,
+              "size": "medium",
+              "weight": "lighter"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Support Team DL",
+              "separator": true,
+              "horizontalAlignment": "left",
+              "color": "accent",
+              "size": "medium",
+              "weight": "bolder",
+              "style": "heading"
+            },
+            {
+              "type": "TextBlock",
+              "text": "[iqsupport@cts.com](mailto:iqsupport@cts.com)",
+              "color": "default",
+              "separator": true,
+              "size": "medium",
+              "weight": "lighter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
